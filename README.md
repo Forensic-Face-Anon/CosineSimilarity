@@ -8,7 +8,7 @@ DeepFace is a lightweight face recognition and facial attribute analysis (age, g
 This function determines whether two facial images belong to the same person or to different individuals. The function returns a dictionary, where the key of interest is verified: True indicates the images are of the same person, while False means they are of different people.
 
 <p align="center">
-<img src="assets/verify-credit.jpg" width="70%">
+<img src="verify-credit.jpg" width="70%">
 </p>
 
 ## Installation 
