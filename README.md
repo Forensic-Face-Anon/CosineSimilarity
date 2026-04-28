@@ -13,24 +13,24 @@ This function determines whether two facial images belong to the same person or 
 
 ## Installation 
 1. Install library
-  ```shell
-  pip install deepface
-  ```
+```shell
+pip install deepface
+```
 
 2. Clone this source code
-   ```shell
-    git clone https://github.com/Forensic-Face-Anon/CosineSimilarity.git
-    ```
+ ```shell
+  git clone https://github.com/Forensic-Face-Anon/CosineSimilarity.git
+  ```
 
 3. Inside the project root, upload the **videos** for both anonymised and original.
    
 4. Update the configuration settings in `DeepFace_eval.py` according to your file directory
-  ```code
-  ORIGINAL_DIR = "./driving/" # original videos folder
-  ANON_DIR = "./output_mask/" # anonymised videos folder
-  OUTPUT_CSV = "./identity_verification_results.csv"
-  ```
+```code
+ORIGINAL_DIR = "./driving/" # original videos folder
+ANON_DIR = "./output_mask/" # anonymised videos folder
+OUTPUT_CSV = "./identity_verification_results.csv"
+```
 5. Run the code
-   ```shell
-    python DeepFace_eval.py
-    ```
+ ```shell
+  python DeepFace_eval.py
+  ```
