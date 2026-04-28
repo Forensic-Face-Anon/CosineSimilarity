@@ -11,6 +11,10 @@ This function determines whether two facial images belong to the same person or 
 <img src="verify-credit.jpg" width="70%">
 </p>
 
+The code used, `DeepFace_eval.py`, receives two folders: one for the original videos and another for its anonymised counterpart. Each video will be sampled at the start, middle and end of the frame with their average taken and used as the final verdict.
+
+Raw results will be saved by default at: `./identity_verification_results.csv`
+
 ## Installation 
 1. Install library
 ```shell
